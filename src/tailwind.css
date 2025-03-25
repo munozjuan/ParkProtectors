@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input-field {
+    @apply border border-primary-300 bg-white text-primary-900 p-3 rounded-md text-sm placeholder-primary-400 focus:outline-none focus:ring-2 focus:ring-primary-400 transition;
+  }
+}
+
+/* Fonts or custom CSS after this */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');

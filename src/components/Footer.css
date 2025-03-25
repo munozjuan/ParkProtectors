@@ -1,0 +1,117 @@
+.footer {
+    background-color: #3d4b1f; /* Deep green */
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  /* Social Media */
+  .footer-social {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer-social a {
+    color: #d6a861; /* Gold */
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #c47a31; /* Darker gold */
+  }
+  
+  /* Subscribe Section */
+  .footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-subscribe h3 {
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+  
+  .subscribe-box {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .subscribe-box input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .subscribe-box button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #d6a861;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+  
+  .subscribe-box button:hover {
+    background-color: #c47a31;
+  }
+  
+  /* Footer Links */
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: #d6a861;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Copyright */
+  .footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+      gap: 15px;
+    }
+  
+    .subscribe-box {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .subscribe-box input {
+      width: 80%;
+    }
+  
+    .footer-social {
+      justify-content: center;
+    }
+  }
+  

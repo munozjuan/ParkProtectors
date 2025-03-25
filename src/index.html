@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>National Park Protection</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" sizes="10x10" type="image/png">
+  
+  <!-- React CDN -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+
+  <!-- React Navbar Component -->
+  <div id="navbar"></div>
+  <div id="hero-section"></div>
+
+  <script type="text/babel">
+    function Navbar() {
+      return (
+        <nav className="navbar">
+          <div className="logo">
+            <a href="index.html">
+              <img src="images/pppark.png" alt="Logo" />
+            </a>
+          </div>
+          <ul className="nav-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li>
+              <div className="search-container">
+                <input type="text" id="search-input" className="search-bar" placeholder="Search..." />
+                <button id="search-button" className="search-btn">
+                  <img src="images/magnifying-glass-32.png" alt="Search Icon" className="search-icon" />
+                </button>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      );
+    }
+
+    function HeroSection() {
+      return (
+        <section className="hero">
+          <div className="hero-image">
+            <img src="/images/hero1.jpg" alt="National Park Image 1" className="image-slide" />
+            <img src="/images/hero2.jpg" alt="National Park Image 2" className="image-slide" />
+            <img src="/images/hero3.jpg" alt="National Park Image 3" className="image-slide" />
+          </div>
+          <div className="hero-content">
+            <h1>Explore, Support, and Protect America’s National & State Parks</h1>
+            <p>Join us in preserving the beauty of our parks for future generations.</p>
+            <div className="cta-buttons">
+              <a href="donate.html">
+                <button className="donate-btn">Donate</button>
+              </a>
+              <a href="volunteer.html">
+                <button className="volunteer-btn">Volunteer</button>
+              </a>
+            </div>
+          </div>
+        </section>
+      );
+    }
+
+    ReactDOM.render(<Navbar />, document.getElementById('navbar'));
+    ReactDOM.render(<HeroSection />, document.getElementById('hero-section'));
+  </script>
+</body>
+</html>

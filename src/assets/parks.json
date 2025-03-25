@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Yosemite National Park",
+      "state": "CA",
+      "lat": 37.8651,
+      "lng": -119.5383
+    },
+    {
+      "name": "Yellowstone National Park",
+      "state": "WY",
+      "lat": 44.428,
+      "lng": -110.5885
+    },
+    {
+      "name": "Zion National Park",
+      "state": "UT",
+      "lat": 37.2982,
+      "lng": -113.0263
+    }
+  ]
+  
