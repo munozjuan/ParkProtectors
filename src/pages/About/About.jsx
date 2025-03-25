@@ -24,7 +24,7 @@ const About = () => {
       {/* Section 1 */}
       <div className="section flex flex-col lg:flex-row items-center justify-center gap-10 max-w-7xl mx-auto mb-16">
         <motion.img 
-          src="/images/left-about.jpg" 
+          src="/ParkProtectors/images/left-about.jpg" 
           alt="Mountain landscape" 
           className="side-image rounded-xl shadow-md" 
           initial="hidden" 
@@ -51,7 +51,7 @@ const About = () => {
       {/* Section 2 */}
       <div className="section flex flex-col lg:flex-row-reverse items-center justify-center gap-10 max-w-7xl mx-auto mb-16">
         <motion.img 
-          src="/images/left-about-2.jpg" 
+          src="/ParkProtectors/images/left-about-2.jpg" 
           alt="People hiking" 
           className="side-image rounded-xl shadow-md" 
           initial="hidden" 
@@ -82,7 +82,7 @@ const About = () => {
       {/* Section 3 */}
       <div className="section flex flex-col lg:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
         <motion.img 
-          src="/images/right-about.jpg" 
+          src="/ParkProtectors/images/right-about.jpg" 
           alt="Canyon view" 
           className="side-image rounded-xl shadow-md" 
           initial="hidden" 

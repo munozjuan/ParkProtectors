@@ -8,7 +8,6 @@ import Volunteer from "./pages/Volunteer/Volunteer";
 import Footer from "./components/Footer";
 import Home from "./components/Home"; // ✅ Home route wrapper
 import "./App.css";
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

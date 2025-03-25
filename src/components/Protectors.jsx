@@ -8,21 +8,21 @@ const testimonials = [
     role: "Trail Maintenance Volunteer",
     quote:
       "Volunteering gave me a deeper connection to my community. Seeing families enjoy the trails I helped restore is incredibly rewarding.",
-    image: "/images/volunteer1.jpg",
+    image: "/ParkProtectors/images/volunteer1.jpg",
   },
   {
     name: "Kara R.",
     role: "Wildlife Conservation Volunteer",
     quote:
       "I never thought I’d make such great friends while volunteering. We’re like a team — protecting the parks we love together.",
-    image: "/images/volunteer2.jpg",
+    image: "/ParkProtectors/images/volunteer2.jpg",
   },
   {
     name: "Paul T.",
     role: "Education & Outreach Volunteer",
     quote:
       "Teaching kids about local wildlife has been amazing. Knowing I’m inspiring the next generation of nature lovers keeps me coming back.",
-    image: "/images/volunteer3.jpg",
+    image: "/ParkProtectors/images/volunteer3.jpg",
   },
 ];
 

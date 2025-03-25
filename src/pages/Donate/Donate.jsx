@@ -119,10 +119,10 @@ const Donate = () => {
         <p className="text-lg mb-10">Your contribution directly supports:</p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-10">
           {[
-            { src: '/images/trail.jpg', title: 'Trail Maintenance', desc: 'Keeping paths clear, safe, and enjoyable for visitors' },
-            { src: '/images/wildlife.jpg', title: 'Wildlife Protection', desc: 'Restoring natural habitats and caring for endangered species' },
-            { src: '/images/education.jpg', title: 'Educational Programs', desc: 'Inspiring future generations to care for our environment' },
-            { src: '/images/volunteer.jpg', title: 'Park Staff & Volunteers', desc: 'Providing tools, training, and resources to make a difference' },
+            { src: '/ParkProtectors/images/trail.jpg', title: 'Trail Maintenance', desc: 'Keeping paths clear, safe, and enjoyable for visitors' },
+            { src: '/ParkProtectors/images/wildlife.jpg', title: 'Wildlife Protection', desc: 'Restoring natural habitats and caring for endangered species' },
+            { src: '/ParkProtectors/images/education.jpg', title: 'Educational Programs', desc: 'Inspiring future generations to care for our environment' },
+            { src: '/ParkProtectors/images/volunteer.jpg', title: 'Park Staff & Volunteers', desc: 'Providing tools, training, and resources to make a difference' },
           ].map((item, idx) => (
             <div key={idx} className="text-center">
               <img src={item.src} alt={item.title} className="rounded-lg mx-auto h-28 w-full object-cover mb-3" />
@@ -149,9 +149,9 @@ const Donate = () => {
         <p className="text-center mb-8">If you can’t give financially, consider:</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
           {[
-            { src: '/images/volunteer-group.jpg', title: 'Volunteering your time', action: 'Volunteer Now', path: '/volunteer' },
-            { src: '/images/lake.jpg', title: 'Sharing our mission on social media', icons: true },
-            { src: '/images/fundraiser.jpg', title: 'Attending Fundraising Events', action: 'Upcoming Events', path: '/volunteer' },
+            { src: '/ParkProtectors/images/volunteer-group.jpg', title: 'Volunteering your time', action: 'Volunteer Now', path: '/volunteer' },
+            { src: '/ParkProtectors/images/lake.jpg', title: 'Sharing our mission on social media', icons: true },
+            { src: '/ParkProtectors/images/fundraiser.jpg', title: 'Attending Fundraising Events', action: 'Upcoming Events', path: '/volunteer' },
           ].map((item, idx) => (
             <div key={idx} className="rounded-xl bg-primary-50 shadow p-4">
               <img src={item.src} className="rounded-md mb-3 h-36 w-full object-cover" />
